@@ -1,0 +1,10 @@
+services:
+  publisher:
+    build: .
+    command: python publisher.py
+  subscriber:
+    build: .
+    command: python subscriber.py
+    environment:
+      PUB_HOST: publisher
+    depends_on: [publisher]

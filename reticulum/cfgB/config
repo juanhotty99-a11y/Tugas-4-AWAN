@@ -1,0 +1,10 @@
+[reticulum]
+  enable_transport = False
+  share_instance = No
+
+[interfaces]
+  [[TCP Client]]
+    type = TCPClientInterface
+    enabled = yes
+    target_host = 127.0.0.1
+    target_port = 4242

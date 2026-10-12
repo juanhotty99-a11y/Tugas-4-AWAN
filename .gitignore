@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Data runtime Reticulum (berisi identity/kunci, dibuat ulang otomatis)
+reticulum/cfg*/storage/
